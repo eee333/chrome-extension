@@ -1,0 +1,15 @@
+{
+    "name": "insert Hello",
+    "description": "insert Hello vc.com", 
+    "manifest_version": 3,
+"version": "1.8",
+    "content_scripts": [
+	{
+		"matches": ["https://vk.com/*", "https://web.whatsapp.com/"],
+		"js": ["insert_hello.js"],
+		"run_at": "document_end"		
+	}
+	]   
+}
+
+
